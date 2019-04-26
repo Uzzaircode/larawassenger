@@ -1,6 +1,6 @@
 {
     "name": "uzzaircode/larawassenger",
-    "description": "simple trait for wassenger",
+    "description": "simple wassenger connector for laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
