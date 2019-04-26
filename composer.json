@@ -1,0 +1,29 @@
+{
+    "name": "uzzaircode/larawassenger",
+    "description": "simple trait for wassenger",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uzzair Baharudin",
+            "email": "uzzaircode@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Uzzaircode\\Larawassenger\\": "src/"
+        }       
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uzzaircode\\Larawassenger\\LarawassengerServiceProvider"
+            ],
+            "aliases": {
+                "Larawassenger": "Uzzaircode\\Larawassenger\\LarawassengerFacade"
+            }
+        }
+    }
+}
